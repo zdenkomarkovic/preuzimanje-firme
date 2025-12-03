@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(mkdir:*)",
-      "Bash(dir \".claude\\commands\")"
+      "Bash(dir \".claude\\commands\")",
+      "Bash(dir /B:*)",
+      "Bash(npm run dev:*)"
     ],
     "deny": [],
     "ask": []
