@@ -28,12 +28,27 @@ export default function KontaktPage() {
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-1">Telefon</h3>
+                    <h3 className="font-semibold text-lg mb-1">Telefon (Srbija)</h3>
                     <a
-                      href="tel:+381600000000"
+                      href="tel:+381616620042"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +381 XX XXX XXXX
+                      +381 61 662 0042
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4 p-4 bg-card rounded-lg border border-border hover:shadow-lg transition-shadow">
+                  <div className="flex-shrink-0">
+                    <Phone className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg mb-1">Telefon (Crna Gora)</h3>
+                    <a
+                      href="tel:+38268202276"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      +382 68 202 276
                     </a>
                   </div>
                 </div>
@@ -45,10 +60,10 @@ export default function KontaktPage() {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Email</h3>
                     <a
-                      href="mailto:info@preuzimanje-firmi.rs"
-                      className="text-muted-foreground hover:text-primary transition-colors"
+                      href="mailto:culafic.gorann@gmail.com"
+                      className="text-muted-foreground hover:text-primary transition-colors break-all"
                     >
-                      info@preuzimanje-firmi.rs
+                      culafic.gorann@gmail.com
                     </a>
                   </div>
                 </div>

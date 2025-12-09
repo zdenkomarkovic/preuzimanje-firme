@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Preuzimanje firme",
+  "short_name": "Preuzimanje firme",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

@@ -21,7 +21,7 @@ export default function HeroPreuzimanje() {
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-blue-800/50 to-blue-900/40" />
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center text-white">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}

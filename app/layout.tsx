@@ -17,7 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Preuzimanje Firmi - Stručna Pomoć u Likvidaciji i Blokadi",
-  description: "Efikasno sprovodimo procese preuzimanja firmi u blokadi i likvidaciji. Poslovni konsalting u skladu sa zakonom o privrednim društvima. Brzo i profesionalno rešenje za Vašu firmu.",
+  description:
+    "Efikasno sprovodimo procese preuzimanja firmi u blokadi i likvidaciji. Poslovni konsalting u skladu sa zakonom o privrednim društvima. Brzo i profesionalno rešenje za Vašu firmu.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     "kupovina firme",
   ],
   alternates: {
-    canonical: "https://www.preuzimanje-firmi.rs/",
+    canonical: "https://www.preuzimanjefirme.rs/",
   },
 };
 
