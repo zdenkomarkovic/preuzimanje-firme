@@ -1,4 +1,5 @@
 "use client";
+import Link from "@/node_modules/next/link";
 import { motion } from "framer-motion";
 import { Mail, Phone } from "lucide-react";
 
@@ -72,20 +73,20 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors"
                 >
                   Početna
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/kontakt"
                   className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors"
                 >
                   Kontakt
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
